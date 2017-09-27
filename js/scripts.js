@@ -7,7 +7,7 @@ if (value > 0) {
 } else if (value < 0) {
 	console.log('Wynik jest ujemny i wynosi ' + value);
 	alert('Wynik jest ujemny i wynosi: ' + value);
-} else if (value == 0) {
+} else {
 	console.log('Wynik wynosi 0');
 	alert('Wynik wynosi 0');
 }
